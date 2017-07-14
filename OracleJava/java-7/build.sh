@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t oracle/serverjre:8 .
+docker build -t oracle/serverjre:7 .
