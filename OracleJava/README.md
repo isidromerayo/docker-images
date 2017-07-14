@@ -23,3 +23,13 @@ $ cd windows-java-8
 $ docker build -t oracle/serverjre:8-windowsservercore -f windowsservercore/Dockerfile .
 $ docker build -t oracle/serverjre:8-nanoserver -f nanoserver/Dockerfile .
 ```
+
+## Java 7
+[Download Server JRE 7](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html) `.tar.gz`
+file and drop it inside folder `java-7`
+Build it:
+
+```
+$ cd java-7
+$ docker build -t oracle/serverjre:7 .
+```
